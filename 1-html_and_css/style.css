@@ -1,0 +1,463 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+  background-color: white
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+hr {
+  margin-top: 3rem;
+  border: 3px solid rgb(129, 19, 92);
+}
+
+.anchor {
+  font-size: 40px;
+}
+
+
+.First_latter_Big_Bold::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.outerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: powderblue;
+  padding: 2rem;
+  width: 60vw;
+  border: 1px solid black;
+  margin: 2rem;
+}
+
+.box2 {
+  background-color: beige;
+  padding: 0;
+  margin: 1rem;
+  text-align: center;
+  border: 5px solid red;
+}
+
+.box4 {
+  background-color: beige;
+  padding: 0;
+  margin: 1rem;
+  text-align: center;
+  border: 5px solid red;
+}
+
+.container1 {
+  margin: 0 auto;
+  width: 70vw;
+  background-color: powderblue;
+  display: flex;
+  border: solid black 2px;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items1 {
+  border: solid red 3px;
+  margin: 5px;
+  padding: 3px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container2 {
+  margin: 0 auto;
+  width: 70vw;
+  background-color: powderblue;
+  display: flex;
+  border: solid black 3px;
+  height: 100px;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items2 {
+  border: solid red 3px;
+  margin: 5px;
+  padding: 3px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container3 {
+  margin: 0 auto;
+  width: 70vw;
+  background-color: powderblue;
+  display: flex;
+  border: solid black 2px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items3 {
+  border: solid red 3px;
+  margin: 5px;
+  padding: 3px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container4 {
+  margin: 0 auto;
+  width: 70vw;
+  background-color: powderblue;
+  display: flex;
+  border: solid black 3px;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items4 {
+  border: solid red 3px;
+  margin: 5px;
+  padding: 3px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.jc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.containerr {
+  display: flex;
+  border: 1px solid black;
+  background-color: beige;
+  margin-bottom: 50px;
+}
+
+.item {
+  font-weight: bold;
+  margin: 10px;
+  border: 3px solid brown;
+  height: 40px;
+  width: 80px;
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  width: 50vw;
+}
+
+#one {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#two {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#three {
+  justify-content: space-around;
+  align-items: center;
+}
+
+#four {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#five {
+  justify-content: space-evenly;
+  align-items: first baseline;
+}
+
+.column {
+  flex-direction: column;
+  height: 400px;
+  width: 50vw;
+}
+
+#I {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#II {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#III {
+  justify-content: center;
+  align-items: center;
+}
+
+#IV {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#V {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.powderblue {
+  background-color: powderblue;
+}
+
+.resume {
+  border: 1px solid grey;
+}
+
+.height-container {
+  display: flex;
+  background-color: rgb(205, 236, 205);
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.height-overflow h1 {
+  color: orangered;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+section {
+  margin: 20px;
+}
+
+
+div.height-container section p {
+  border: 2px solid rgb(205, 236, 205);
+  border: 2px solid black;
+  ;
+  width: 30vw;
+}
+
+.min {
+  min-height: 40vh;
+}
+
+.max {
+  max-height: 38vh;
+}
+
+.overflow-outer {
+  background-color: rgb(205, 236, 205);
+  margin-bottom: 20px;
+}
+
+.overflow-main {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+
+}
+
+.overflow-main section p {
+  border: 2px solid black;
+  max-height: 40vh;
+}
+
+.auto {
+  overflow: auto;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+a:link {
+  color: rgb(5, 121, 222);
+}
+
+a:visited {
+  color: rgb(4, 0, 119);
+}
+
+a:hover {
+  color: rgb(10, 82, 19);
+}
+
+a:active {
+  color: red;
+}
+
+.no-bullet {
+  font-size: 2rem;
+}
+
+.bookmark {
+  background-color: powderblue;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.cards-assignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-item-stretch {
+  align-items: stretch;
+}
+
+.flex-items {
+  border: 1px solid grey;
+  padding: 16px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-items p {
+  margin-top: 0px;
+  align-self: self-start;
+}
+
+.flex-items h2 {
+  margin-bottom: 10px;
+
+}
+
+.impporting-fonts {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  width: 70vw;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.cricketers{
+  text-align: center;
+  margin: 0 auto;
+  width: 80vw;
+}
+.cric_img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.cricketers td{
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+ 
+}
+.cricketers th{
+  font-size: 2rem;
+  padding: 0.2rem 2rem;
+}
+.grid-container {
+  width: 60vw;
+  height: 97vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "header header header" "aside1 main aside2" "footer footer footer";
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.header {
+  grid-area: header;
+  background-color: powderblue;
+}
+
+.aside1 {
+  grid-area: aside1;
+  background-color: rgb(88, 206, 88);
+}
+
+.aside2 {
+  grid-area: aside2;
+  background-color: rgb(88, 206, 88);
+}
+
+.main {
+  grid-area: main;
+  background-color: orangered;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: powderblue;
+}
+@media screen and (max-width:768px) {
+  .grid-container{
+      display: flex;
+      flex-direction: column;
+      
+  }
+}
